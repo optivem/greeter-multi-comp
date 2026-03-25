@@ -1,11 +1,11 @@
-# ATDD Accelerator Template - Multi Component
+# Greeter - Multi Component
 
-[![commit-stage-frontend](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/commit-stage-frontend.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/commit-stage-frontend.yml)
-[![commit-stage-backend](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/commit-stage-backend.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/commit-stage-backend.yml)
-[![acceptance-stage](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/acceptance-stage.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/acceptance-stage.yml)
-[![qa-stage](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/qa-stage.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/qa-stage.yml)
-[![qa-signoff](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/qa-signoff.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/qa-signoff.yml)
-[![prod-stage](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/prod-stage.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-multi-comp/actions/workflows/prod-stage.yml)
+[![commit-stage-frontend](https://github.com/optivem/greeter-multi-comp/actions/workflows/commit-stage-frontend.yml/badge.svg)](https://github.com/optivem/greeter-multi-comp/actions/workflows/commit-stage-frontend.yml)
+[![commit-stage-backend](https://github.com/optivem/greeter-multi-comp/actions/workflows/commit-stage-backend.yml/badge.svg)](https://github.com/optivem/greeter-multi-comp/actions/workflows/commit-stage-backend.yml)
+[![acceptance-stage](https://github.com/optivem/greeter-multi-comp/actions/workflows/acceptance-stage.yml/badge.svg)](https://github.com/optivem/greeter-multi-comp/actions/workflows/acceptance-stage.yml)
+[![qa-stage](https://github.com/optivem/greeter-multi-comp/actions/workflows/qa-stage.yml/badge.svg)](https://github.com/optivem/greeter-multi-comp/actions/workflows/qa-stage.yml)
+[![qa-signoff](https://github.com/optivem/greeter-multi-comp/actions/workflows/qa-signoff.yml/badge.svg)](https://github.com/optivem/greeter-multi-comp/actions/workflows/qa-signoff.yml)
+[![prod-stage](https://github.com/optivem/greeter-multi-comp/actions/workflows/prod-stage.yml/badge.svg)](https://github.com/optivem/greeter-multi-comp/actions/workflows/prod-stage.yml)
 
 ## Components
 
