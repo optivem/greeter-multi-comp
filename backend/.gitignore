@@ -1,7 +1,6 @@
 # Gradle
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
@@ -28,6 +27,9 @@ Thumbs.db
 *.tar.gz
 *.rar
 hs_err_pid*
+
+# Gradle wrapper (must come after *.jar)
+!gradle/wrapper/gradle-wrapper.jar
 
 # Spring Boot
 *.pid
