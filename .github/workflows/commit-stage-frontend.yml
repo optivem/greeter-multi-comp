@@ -52,8 +52,6 @@ jobs:
     permissions:
       contents: read
       packages: write
-    env:
-      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     outputs:
       component-version: ${{ steps.read-version.outputs.target-version }}
       image-version-tag: ${{ steps.build.outputs.image-version-tag }}
@@ -97,17 +95,6 @@ jobs:
       - name: Run Linter
         run: npm run lint
         working-directory: frontend
-
-      - name: Run Code Analysis
-        if: github.ref == 'refs/heads/main' && env.SONAR_TOKEN != ''
-        uses: SonarSource/sonarcloud-github-action@v5
-        with:
-          projectBaseDir: frontend
-          args: >
-            -Dsonar.projectKey=optivem_greeter-multi-comp-frontend
-            -Dsonar.projectName=greeter-multi-comp-frontend
-            -Dsonar.organization=optivem
-            -Dsonar.sources=src
 
       - name: Build Artifact
         if: github.ref == 'refs/heads/main'
